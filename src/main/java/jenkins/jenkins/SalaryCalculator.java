@@ -1,4 +1,5 @@
 package jenkins.jenkins;
+//Testen van jenkins bij workshop IAC
 
 public class SalaryCalculator {
 	private double salary;
