@@ -9,7 +9,7 @@ public class SalaryCalculator {
 	}
 
 	public void setSalary(double salary) {
-		if (salary < 0) {
+		if (salary > 0) {
 			throw new IllegalArgumentException("Salary can't be negative.");
 		}
 		this.salary = salary;
